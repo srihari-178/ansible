@@ -8,7 +8,7 @@
     trainer: sivakumar reddy
   tasks:
     - name: module for printing
-      #vars:
-      #course: ansible
+      vars:
+        course: ansible
       ansible.builtin.debug:
         msg: "the course : {{ course }}, duration : {{ duration }}, trainer : {{ trainer }}"
