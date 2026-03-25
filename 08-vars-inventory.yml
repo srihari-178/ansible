@@ -1,0 +1,9 @@
+---
+- name: variables in inventory
+  hosts: local
+  connection: local
+  tasks:
+    - name:print course info
+      ansible.builtin.debug:
+        msg: "Course name is {{ course }}, trainer: {{ trainer }}, duration: {{ duration }}"
+
