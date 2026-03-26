@@ -18,9 +18,9 @@
         msg: "Name : {{ name }}"
 
     # 1.from command line or arguments
-    # 2.from prompt
+    # 2.from task
     # 3.files
-    # 4.prompt
+    # 4.from prompt
     # 5.from play level
     # 6.from inventory
     #
