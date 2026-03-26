@@ -12,7 +12,7 @@
       private: false
   tasks:
     - name: testing variables preference
-      vars:
-        name: from task level
+      #vars:
+      #name: from task level
       ansible.builtin.debug:
         msg: "Name : {{ name }}"
