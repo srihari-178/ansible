@@ -6,13 +6,18 @@
     name: from play level
   #vars_files:
   #- course.yml
-  vars_prompt:
-    - name: name
-      prompt: what is your name?
-      private: false
+  #vars_prompt:
+  #- name: name
+  #prompt: what is your name?
+  #private: false
   tasks:
     - name: testing variables preference
       #vars:
       #name: from task level
       ansible.builtin.debug:
         msg: "Name : {{ name }}"
+
+    # 1.from command line or arguments
+    # 2.from prompt
+    # 3.files
+    # 4.from prompt
