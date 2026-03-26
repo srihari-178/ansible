@@ -4,8 +4,8 @@
   connection: local
   vars:
     name: from play level
-  vars_files:
-    - course.yml
+  #vars_files:
+  #- course.yml
   vars_prompt:
     - name: name
       prompt: what is your name?
